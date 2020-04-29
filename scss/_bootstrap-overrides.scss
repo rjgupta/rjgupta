@@ -6,11 +6,11 @@
   color: $primary !important;
 }
 
-a {
+a, i {
   color: $primary;
   &:hover,
   &:focus,
   &:active {
-    color: darken($primary, 15%);
+    color: darken($primary, 50%);
   }
 }
